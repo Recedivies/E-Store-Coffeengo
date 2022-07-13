@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt=""/>
 </div>
 
-Small business owners have a very unique lifestyle. They have their craft, and then they have the business of their craft. E-commerce has revolutionized peoples ability to sell their products with ease. But every business is different. Different types of products need different types of workflows beyond just inventory and a shopping cart. That's where E-Store-Coffeengo come in.
+E-commerce has revolutionized people's ability to sell products with ease. But every business is different. Different types of products need different types of workflows beyond just inventory and a shopping cart. That's where E-Store-Coffeengo come in.
 
 This Project is to create a working e-store that allows customers to browse, purchase, and rate/reviews various type of coffee that have been posted by an admin of the store.
 
