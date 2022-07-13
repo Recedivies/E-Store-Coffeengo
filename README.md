@@ -1,22 +1,23 @@
 <div align="center" style="padding-bottom: 20px">
-    <h1>Django + React + Postgres + Docker + Heroku template</h1>
+    <h1>E-Store-Coffeengo</h1>
     <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt=""/>
     <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt=""/>
     <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray" alt=""/>
     <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt=""/>
+     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt=""/>
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt=""/>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt=""/>
+    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt=""/>
     <img src="https://img.shields.io/badge/Docker-008FCC?style=for-the-badge&logo=docker&logoColor=white" alt=""/>
     <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt=""/>
     <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt=""/>
     <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt=""/>
 </div>
 
-This repository serves as a starting point for developing a
-production-ready application using Django Rest Framework,
-React with Typescript and Postgres in a Dockerized environment
-with an option to deploy to Heroku. Running development setup
-without docker-compose is also possible.
+Small business owners have a very unique lifestyle. They have their craft, and then they have the business of their craft. E-commerce has revolutionized peoples ability to sell their products with ease. But every business is different. Different types of products need different types of workflows beyond just inventory and a shopping cart. That's where E-Store-Coffeengo come in.
+
+This Project is to create a working e-store that allows customers to browse, purchase, and rate/reviews various type of coffee that have been posted by an admin of the store.
+
+Built with Django, Django Rest Framework, React Typescript, Postgres, and Redis, in a Dockerized environment with an option to deploy to Heroku. Running development setup without docker-compose is also possible.
 
 ### Tools, libraries, frameworks:
 
@@ -27,19 +28,12 @@ This setup has been tested with Python 3.8/3.9 and Node 14.
 - `Python 3.8/9`
 - `django`, `djangorestframework` Django + Django Rest Framework
 - `django-cors-headers` - handling cross origin requests
+- `django-filter` - enables filtering querysets with url parameters and more
 - `coverage` - for code coverage reports and running unit tests
 - `psycopg2` - needed to use Postgres (in Docker container)
 - `gunicorn` - production wsgi http server
 - `whitenoise` - building static files
 - `black`, `isort`, `flake8` - for code quality (optional)
-
-Suggested packages:
-
-- `drf-yasg` - open api documentation (swagger and redoc)
-- `django-rest-auth`, `django-allauth`, `djoser` - making auth easier
-- `django-filter` - enables filtering querysets with url parameters and more
-- `django-import-export` - import/export data from admin page
-- `django-debug-toolbar` - useful debugging tool
 
 ### Frontend
 
@@ -48,15 +42,9 @@ Suggested packages:
 - `typescript` - Typescript
 - `react-router-dom` - frontend routing
 - `axios` - for making HTTP requests
-
-Suggested packages:
-
-- UI libraries such as `Chakra-UI`, `Material-UI`, `Reactstrap`, `TailwindCSS` etc.
-- `react-query` - very useful package which handles data fetching logic for you
-- `formik` + `yup` - handling form state and validation
-- `@reduxjs/toolkit` + required packages
-  (react-redux, redux etc.) - library which makes Redux much easier to understand and use
 - `cypress` - for e2e testing
+- `@reduxjs/toolkit, redux, react-redux` - for state management
+- `Tailwind CSS` - UI components
 
 # Development setup
 
